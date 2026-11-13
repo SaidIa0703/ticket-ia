@@ -1,0 +1,5 @@
+prefix: "TIA"           # Ticket ID prefix (TIA-001, ...)
+digits: 3                # Zero-padding width
+tickets_dir: "tickets"   # Root directory for tickets
+# test_command: "npm test"  # Optional: custom test runner command (verifier runs it via bash -c; auto-detects npm test / pytest / make test when unset)
+# stats: true               # Optional: enables telemetry (tool-call log + phase timing in .tickets/stats/)
